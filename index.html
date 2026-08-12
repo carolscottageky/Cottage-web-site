@@ -26,9 +26,11 @@
     a.button { display:inline-block; padding:12px 20px; border-radius:5px; text-decoration:none; font-family:Arial,sans-serif; font-weight:700; }
     .phone { background:white; color:var(--ink); }
     .calendar { background:var(--gold); color:white; }
-    footer { text-align:center; padding:28px 0 40px; font-size:14px; opacity:.75; }
+    footer { width: 100%; text-align:center; padding:28px 0 40px; font-size:14px; opacity:.75; }
+    footer img { display: block; width: 100%; height: auto; }
     @media(max-width:650px) { .photos { grid-template-columns:1fr; } header { padding-top:48px; } }
   </style>
+
 </head>
 <body>
   <header>
@@ -80,12 +82,5 @@
   <img src="images/carolscottage sage.jpg" alt="Carol's Cottage">
 </footer> 
   <!--<footer>Carol's Cottage</footer>-->
-footer {
-  padding: 0;
-}
-
-footer img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+</body>
+</html>
