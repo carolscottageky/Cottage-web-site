@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carol's Cottage | A Place to Rest</title>
+  <meta name="description" content="Carol's Cottage is a welcoming place for rest, refreshment, and respite.">
+  <style>
+    :root { --ink:#24302a; --cream:#f7f3ea; --sage:#687b6b; --gold:#b79a63; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--cream); line-height:1.6; }
+    .wrap { max-width:980px; margin:auto; padding:0 22px; }
+    header { padding:70px 0 55px; text-align:center; }
+    h1 { font-size:clamp(42px,8vw,72px); line-height:1; margin:0 0 12px; font-weight:500; }
+    .tagline { font-size:20px; margin:0 auto; max-width:620px; }
+    .rule { width:70px; height:2px; background:var(--gold); margin:28px auto; }
+    section { padding:38px 0 58px; }
+    h2 { font-size:32px; font-weight:500; margin:0 0 14px; }
+    .purpose { max-width:720px; font-size:18px; }
+    .photos { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:25px; }
+    .photos img { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:8px; background:#ddd; }
+    .contact { background:var(--sage); color:white; padding:42px 22px; text-align:center; border-radius:10px; }
+    .contact h2 { margin-bottom:8px; }
+    .buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:24px; }
+    a.button { display:inline-block; padding:12px 20px; border-radius:5px; text-decoration:none; font-family:Arial,sans-serif; font-weight:700; }
+    .phone { background:white; color:var(--ink); }
+    .calendar { background:var(--gold); color:white; }
+    footer { text-align:center; padding:28px 0 40px; font-size:14px; opacity:.75; }
+    @media(max-width:650px) { .photos { grid-template-columns:1fr; } header { padding-top:48px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Carol's Cottage</h1>
+      <div class="rule"></div>
+      <p class="tagline">A simple place to rest, refresh, and make room for what matters.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Our Offering & Purpose</h2>
+      <p class="purpose">
+        Carol's Cottage is offered as a welcoming place of respite and refreshment.
+        Our desire is to provide a peaceful, comfortable setting where guests can
+        slow down, reconnect, and be encouraged. Availability is intentionally
+        limited so the cottage can remain a personal and meaningful offering.
+      </p>
+    </section>
+
+    <section>
+      <h2>A Glimpse of the Cottage</h2>
+      <div class="photos">
+        <img src="images/cottage-1.jpg" alt="Carol's Cottage">
+        <img src="images/cottage-2.jpg" alt="Carol's Cottage">
+      </div>
+    </section>
+
+    <section>
+      <div class="contact">
+        <h2>Interested in Staying?</h2>
+        <p>Contact us to learn more about availability and whether Carol's Cottage is a good fit.</p>
+        <div class="buttons">
+          <!-- Replace the phone number below -->
+          <a class="button phone" href="tel:+18599137096">Call Scott — 859-913-7096</a>
+          <!-- Replace the Google Calendar URL below -->
+          <a class="button calendar" href="https://calendar.google.com/calendar/u/0?cid=MjE0YWVhZjFlNDI5ZTI4ZmIxYWQyNDg2YzFmYWUzOWI4MTY3NjYyZjZlOGYxYWNkZDg2MGY0OGIwMzRlZDc5MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" rel="noopener">View Availability</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Carol's Cottage</footer>
+</body>
+</html>
